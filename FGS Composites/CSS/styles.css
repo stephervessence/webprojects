@@ -1,0 +1,346 @@
+body {
+  /* font-family: "Montserrat", sans-serif; */
+  font-family:"Lato", sans-serif;
+  text-align: center;
+}
+
+h1, h2 {
+  font-weight: 900;
+}
+
+h3 {
+  font-weight: 500;
+  padding-bottom: 20px;;
+}
+
+.container-fluid {
+  padding: 5% 15%;
+}
+
+/* Headings */
+.title-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+/* Section Format */
+
+.coloured-section {
+  background-color: #334257;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+.greenish-section {
+  background-color: #476072;
+  color: white;
+}
+
+/* Navigation Bar */
+.logo {
+  height: 80px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  margin-bottom: 10px;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+
+/* Home Page*/
+#home-page .navbar {
+  padding-bottom: 0;
+}
+
+.navigation-bar {
+  background-image: url("axiom-pattern.png");
+  padding: 0 15%;
+
+}
+.home-page-heading {
+  background-image: url("camper.jpeg");
+  color: #476072;
+  padding: 12%;
+}
+
+.home-page-heading .title-heading {
+  background: rgba(255,255,255,0.7);
+}
+
+/* Other Page Title Section */
+#title.coloured-section {
+  background-image: url("axiom-pattern.png");
+}
+
+.heading-image {
+  height: 100px;
+  padding: 100px;
+  opacity: 0.5;
+}
+
+.team.heading-image {
+  background-image: url("/Users/stephervessence/Documents/Web Development/FGS Composites/images/camper2.jpeg");
+}
+
+.contactus.heading-image {
+  background-image: url("/Users/stephervessence/Documents/Web Development/FGS Composites/images/fgstruck.jpeg");
+}
+
+.ourwork.heading-image {
+  background-image: url("/Users/stephervessence/Documents/Web Development/FGS Composites/images/camper2.jpeg");
+}
+
+
+/* features */
+.feature-logo {
+  color: #476072;
+  padding-bottom: 50px;
+}
+
+.header-photo {
+  width: 50%;
+  height: auto;
+}
+
+/* ming */
+.header-photo {
+  width: 15%;
+  height: auto;
+  border-radius: 100%;
+}
+
+/* industries */
+#industries {
+  color: #334257;
+}
+
+#industries h3 {
+  font-weight: 400;
+}
+
+.industry-logo {
+  /* height: 80px; */
+  width: 4rem;
+  height:auto;
+  margin: 20px 0 40px 0;
+}
+
+/* testimonials */
+.testimonial-text {
+  font-weight: 400;
+}
+
+.testimonial-image {
+  height: 400px;
+  border-style: solid;
+  border-color: #476072;
+  border-width: 1px;
+  border-radius: 20%;
+  margin: 20px;
+
+}
+
+/* Suppliers */
+.supplier-logo {
+  padding-bottom: 2%;
+}
+
+/* Footer */
+
+#footer .container-fluid {
+  padding: 1% 10%;
+}
+.contact {
+  padding: 10px;
+}
+.cta-logo {
+  padding: 0 10px;
+  vertical-align: middle;
+}
+
+.button {
+  margin: 1% 5% 0% 5%;
+}
+
+.facebook-button {
+  background-color: #B2B1B9;
+  color: black;
+  margin-bottom: 50px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #334257 ;
+}
+
+.facebook-logo {
+  color: #0d6efd;
+  padding-bottom: 1%;
+}
+
+.footer-logo {
+  width:80px;
+  height:auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  text-align: right;
+  margin-right: 1%;
+
+}
+
+.footer-text {
+  font-size: 1rem;
+  font-weight: 500;
+  vertical-align: middle;
+}
+
+/* PAGE: TEAM BIO */
+#team .container-fluid {
+  padding: 5% 20%;
+}
+
+#team h1 {
+  padding-bottom: 5%;
+}
+.about-us {
+  font-size: 1.5rem;
+}
+
+.line {
+  width: 5%;
+  background-color: white;
+  border: none;
+  border-top: 8px dotted black;
+  margin:auto;
+}
+
+.team-bio {
+  position: relative;
+  text-align: left;
+}
+
+.team-photo {
+  width: 70%;
+  height: auto;
+  border-radius: 100%;
+  border-color: grey;
+  border-style: solid;
+  border-width: 1px;
+  text-align: right;
+
+}
+
+.team-image {
+  text-align: right;
+}
+
+
+/* CONTACT PAGE */
+
+.contact-info {
+  text-align: left;
+  font-size: 1.5rem;
+  }
+
+.button-contact {
+  margin-top: 1%;
+}
+
+/* OUR WORK PAGE */
+#ourwork .container-fluid {
+  padding: 5% 20%;
+}
+
+ul {
+  list-style: inside;
+  text-align: left;
+}
+
+.worktext {
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+
+.white-section .border-start {
+  border-left: 1px solid black !important;
+}
+
+.coloured-section .border-start {
+  border-left: 1px solid #6c757d!important;
+}
+
+/* OUR WORK PAGE 2 */
+
+#ourwork2 .container-fluid {
+  padding: 0 20%;
+  text-align: left;
+  font-family: "Lato", sans-serif;
+}
+
+/* .work-image.architecture {
+  padding-top: 30px;
+} */
+
+.work-section-heading {
+  font-size: 2.0rem;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: left;
+  padding-top: 20px;
+  text-decoration: underline 1.2px;
+}
+
+
+.work-image {
+  max-height: 80%;
+  max-width: 100%;
+
+  padding: 30px 0 10px 0;
+}
+
+
+/* .work-section-heading:after {
+    content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+} */
+
+/* HEADER */
+.header {
+  background-color: #EEEEEE;
+  font-size: 0.9rem;
+  padding: 5px 0 5px 0;
+}
+
+.header-phone {
+  color: black;
+  margin-left: 40px;
+}
+
+.header-email {
+  color: black;
+  text-decoration: none;
+  margin-left: 40px;
+}
